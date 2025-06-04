@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 500vw;
+  background-image: url(img/01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vh;
+}
+
+.paramountTitle {
+  font-family: "Great Vibes", cursive;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+.happyfc,
+.barra {
+  color: rgba(255, 255, 255, 0.389);
+}
+
+.barra {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.gp1,
+.gp2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.gp2 {
+  gap: 30px;
+  cursor: pointer;
+}
+
+.btheader {
+  background-color: #0064ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.main1 {
+  height: 92vh;
+  align-content: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 50vw;
+  gap: 10px;
+  margin-left: 5vw;
+}
+
+.btheader {
+  height: 5vh;
+  width: 13vw;
+}
+
+header,
+h6 {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.montanhaTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+
+.planosSub {
+  font-size: 15px;
+}
+
+.bt1,
+.bt2,
+.bt3 {
+  background-color: #0064ff;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 23vw;
+  height: 10vh;
+}
+
+.bt2,
+.bt3 {
+  background-color: rgba(240, 248, 255, 0);
+  border: white solid 1px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  max-width: 100vw;
+  background-image: url(img/02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 35vw;
+  height: 45vh;
+  gap: 10px;
+  margin-left: 5vw;
+  margin-top: 6vh;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: center;
+}
+
+.boximg1 {
+  margin-top: 5vh;
+  display: flex;
+  background-image: url("img/poster1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 35vh;
+}
+
+.exlusivosTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+
+.descubraSub {
+  font-size: 15px;
+}
+
+.btt1 {
+  background-color: #0064ff;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 18vw;
+  height: 7vh;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  max-width: 100vw;
+  background-image: url(img/backgroundKid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 45vw;
+  height: 45vh;
+  gap: 10px;
+  margin-left: 5vw;
+  margin-top: 6vh;
+}
+
+.imgbox1 {
+  display: flex;
+  justify-content: center;
+}
+
+.boximg2 {
+  margin-top: 5vh;
+  display: flex;
+  background-image: url("img/poster2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 35vh;
+}
+
+.filmesTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+
+.vejaSub {
+  font-size: 15px;
+}
+
+.btt2 {
+  background-color: #0064ff;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 18vw;
+  height: 7vh;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  background-image: url(img/03.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box4 {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 35vw;
+  height: 45vh;
+  gap: 10px;
+  margin-left: 5vw;
+  margin-top: 6vh;
+}
+
+.futeTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+
+.bataSub {
+  font-size: 15px;
+}
+
+.btt3 {
+  background-color: #0064ff;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 18vw;
+  height: 7vh;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url(img/04.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 100%;
+}
+
+.boxC {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 95vw;
+  height: 80vh;
+  gap: 10px;
+  margin-top: 10vh;
+}
+
+.bt11,
+.bt22,
+.bt33 {
+  background-color: #0064ff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 18vw;
+  height: 7vh;
+}
+
+.bt22,
+.bt33 {
+  background-color: rgba(240, 248, 255, 0);
+  border: white solid 1px;
+}
+
+.titu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+
+.subTitu {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 5vh 5vw;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5vw;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.end h6.paramountTitle {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.end-section {
+  color: rgba(255, 255, 255, 0.412);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 200px;
+}
+
+.end-section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.47);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  line-height: 1.6;
+}
+
+.paramountTitle,
+.bt1,
+.bt2,
+.bt3,
+.btheader,
+.btt1,
+.btt2,
+.btt3,
+.bt11,
+.bt22,
+.bt33,
+footer .end .end-section,
+footer .end h6.paramountTitle {
+  cursor: pointer;
+}
+
+.paramountTitle:hover,
+.bt1:hover,
+.bt2:hover,
+.bt3:hover,
+.btheader:hover,
+.btt1:hover,
+.btt2:hover,
+.btt3:hover,
+.bt11:hover,
+.bt22:hover,
+.bt33:hover,
+footer .end h6.paramountTitle:hover {
+  transform: scale(1.05);
+}
