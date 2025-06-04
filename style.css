@@ -22,6 +22,7 @@ header {
   display: flex;
   height: 8vh;
   align-items: center;
+  position: relative;
   justify-content: space-between;
   padding: 0 10vh;
 }
@@ -424,4 +425,50 @@ footer .end h6.paramountTitle {
 .bt33:hover,
 footer .end h6.paramountTitle:hover {
   transform: scale(1.05);
+}
+
+/* Botão de voltar no canto superior esquerdo */
+.btn-voltar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #a3d8ff;
+  color: #003366;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s, transform 0.2s;
+  z-index: 1000;
+}
+
+.btn-voltar:hover {
+  background: #ffffff;
+  transform: scale(1.07) translateY(-2px);
+}
+
+.btn-voltar-header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: auto;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.btn-voltar-header:hover {
+  transform: scale(1.07) translateY(-2px);
 }
